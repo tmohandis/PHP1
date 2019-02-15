@@ -1,9 +1,3 @@
-<?php
-define ("TITLE", "website ");
-$currentYear = 	date("Y");
-$a = "Hello, username";
-$b = 5;
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
