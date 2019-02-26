@@ -2,8 +2,7 @@
 
 function replaceSpace ($string)
 {
-    $replace = explode( " " , $string);
-    $replace = implode("_", $replace);
+    $replace = str_replace(" ", "_", $string);
     return $replace;
 }
 

@@ -8,10 +8,13 @@ $country = [
 ];
 
 foreach ($country as $region => $cities) {
-    if ($region == 'Московская область' || $region == 'Ленинградская область') {
-        echo $region." : ";
-        foreach ($cities as $city) echo $city.", ";
-        echo "\n";
+    echo $region . " : ";
+    foreach ($cities as $city) {
+        echo $city;
+        if ($city != end($cities)) {
+            echo ", ";
+        }
     }
-
+    echo "\n";
 }
+

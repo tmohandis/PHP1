@@ -8,10 +8,9 @@ $country = [
 ];
 
 foreach ($country as $region => $cities) {
-    if ($region == 'Московская область' || $region == 'Ленинградская область') {
-        echo $region." : ";
-        foreach ($cities as $city) if ((mb_substr($string, 0, 1) == 'K')) echo $city.", ";
-        echo "\n";
+    foreach ($cities as $city) {
+        if (mb_substr($city,0,1) == 'К')
+        echo $city;
     }
-
+    echo "\n";
 }
