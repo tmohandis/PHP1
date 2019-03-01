@@ -22,10 +22,12 @@ switch ($page) {
         break;
     case 'gallery':
         break;
+    case 'load':
+        break;
 
 }
-var_dump($params);
-var_dump(__DIR__);
+//var_dump($params);
+//var_dump(__DIR__);
 echo render($page, $params);
 
 

@@ -47,6 +47,7 @@
 </head>
 
 <body>
+<h1>Добро пожаловать в галерею</h1>
     <div class="galleryPreviewsContainer">
         <?=loadGallery();?>
     </div>
